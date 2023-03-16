@@ -1,19 +1,27 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
-    <title>Shape Tracker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Giphy Random Now!</title>
   </head>
+
   <body>
-    <h3>Enter three lengths to determine if they can make a triangle.</h3>
-    <form id="triangle-checker-form">
-      <label for="length1">Enter a number:</label>
-      <input id="length1" type="number" />
-      <label for="length2">Enter a number:</label>
-      <input id="length2" type="number" />
-      <label for="length3">Enter a number:</label>
-      <input id="length3" type="number" />
-      <button type="submit">Submit</button>
-    </form>
-    <div id="response"></div>
+    <div id="content">
+      <div id="header">
+        <h1>Giphy Random Now!</h1>
+      </div>
+      <div id="giphy-container">
+        <img
+          id="gifOne"
+          src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjI1MDQyYjdmNTU3ZDI1YzRhOTRmNzMzODc5ZmJkMzJmMjQ3ZDJlYiZjdD1n/jVGzL7YMoCetrOesVX/giphy.gif"
+        />
+      </div>
+      <div id="refresh">
+        <button id="refresh" type="button" onClick="window.location.reload();">
+          REFRESH
+        </button>
+      </div>
+    </div>
   </body>
 </html>

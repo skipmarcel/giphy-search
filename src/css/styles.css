@@ -1,3 +1,25 @@
 body {
-  background-color: lightblue;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: azure;
+  font-size: 60px;
+}
+
+content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#gifOne {
+  border-radius: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px;
 }

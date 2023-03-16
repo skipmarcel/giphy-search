@@ -1,8 +1,8 @@
-# Template Repo For TDD with Jest
+# Giphy Searcher
 
-#### This repository is a template to create a TDD enviroment for any javaScript project.
+#### This is program designed to search the application Giphy
 
-#### By Tyler Adams
+#### By Tyler Adams and Brett Roper
 
 ## Technologies Used
 
