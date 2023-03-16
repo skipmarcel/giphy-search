@@ -27,5 +27,3 @@ function timeCapsule(result) {
   console.log(newGif.data.images.original.url);
   currentTrend.src = newGif.data.images.original.url;
 }
-
-//https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjVlNWJjYWI5MDYzYjUwNTE2MGUzMjk5MGNmNTVkNzQ0NDAwMGNmYSZjdD1n/3oEjI8R05ekZC9I3Kw/giphy.gif

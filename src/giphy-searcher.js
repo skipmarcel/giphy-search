@@ -16,20 +16,3 @@ export default class Giphy {
     });
   }
 }
-/*
-    return fetch(
-      `https://api.giphy.com/v1/gifs/random?api_key=${process.env.API_KEY}&tag=&rating=g`
-    )
-      .then(function (response) {
-        if (!response.ok) {
-          const errorMessage = `${response.status} ${response.statusText}`;
-          throw new Error(errorMessage);
-        } else {
-          return response.json();
-        }
-      })
-      .catch(function (error) {
-        return error;
-      });
-  }
-  */

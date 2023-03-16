@@ -1,5 +1,6 @@
 body {
-  background-color: cadetblue;
+  background-color: black;
+
   text-align: center;
 }
 
@@ -17,9 +18,18 @@ content {
 
 #gifOne {
   border-radius: 10px;
+  border: 3px solid cyan;
 }
 
 button {
   margin-top: 20px;
   padding: 10px;
+  border-radius: 10px;
+  background-color: azure;
+  border: none;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  width: 160px;
+  height: 60px;
+  color: darkcyan;
 }
